@@ -1,6 +1,6 @@
 class Car extends Vehicle {
-    int numberOfDoors;
-    double carPrice;
+    private int numberOfDoors;
+    private double carPrice;
 
     public Car(int numberOfWheels, int numberOfDoors, double carPrice) {
         super("Car", numberOfWheels);
