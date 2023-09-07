@@ -1,6 +1,6 @@
 class Boat extends Vehicle {
-    double maxKnotsSpeed;
-    int boatKilosWeight;
+    private double maxKnotsSpeed;
+    private int boatKilosWeight;
 
     public Boat(double maxKnotsSpeed, int boatKilosWeight) {
         super("Boat", 0); // Boats typically have 0 wheels
