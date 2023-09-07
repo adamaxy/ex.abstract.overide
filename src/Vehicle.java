@@ -1,7 +1,7 @@
 
 abstract class Vehicle {
-    String type;
-    int numberOfWheels;
+    private String type;
+    private int numberOfWheels;
 
     public Vehicle(String type, int numberOfWheels) {
         this.type = type;
